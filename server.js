@@ -38,7 +38,7 @@ const swaggerOptions = {
 		},
 		servers: [
 			{
-				url: `http://localhost:${process.env.PORT}/api/v1`,
+				url: "https://job-portal-api-rr2a.onrender.com/api/v1",
 			},
 		],
 	},
