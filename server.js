@@ -59,7 +59,7 @@ app.use("/api/v1/user", userRoutes);
 app.use("/api/v1/jobs", jobsRoutes);
 
 // homeroute
-app.use("/api-doc", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+app.use("/", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // validation middleware
 app.use(errorMiddelware);
